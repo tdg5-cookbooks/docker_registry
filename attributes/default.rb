@@ -1,3 +1,5 @@
+default["docker_registry"]["binds"] = {}
+default["docker_registry"]["env"] = {}
 default["docker_registry"]["ports"][5000] = 5000
 default["docker_registry"]["repo"] = "registry"
 default["docker_registry"]["restart_policy"] = "always"
